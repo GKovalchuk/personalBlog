@@ -1,0 +1,92 @@
+.add-post {
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+
+    background-color:  $secondary;
+    box-shadow: 0 1.5rem 2.5rem rgba ($black, .45);    
+    border-radius: .8rem;
+
+    @include breakpoint($mobile-bp) {
+        padding: 1.5rem;
+    }
+}
+.add-post__form {
+    display: flex;
+    align-items: flex-end;
+}
+.add-post__form-actions {
+    width: 10rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint($mobile-bp) {
+        width: 9rem;
+    }
+}
+.add-post__textarea {
+    display: block;
+    flex-grow: 1;
+    width: 85%;
+    height: 2.6rem;
+    overflow: hidden;
+    margin: auto;
+
+    border: none;
+    background: transparent;
+    resize: none;
+
+    font-size: 1.5rem;
+    color: $white;
+    font-family: inherit;
+    
+    &::placeholder {
+        color: #d2d2d2;
+    }
+}
+.add-post__file,
+.add-post__send {
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color .2s linear;
+
+    @include breakpoint($mobile-bp) {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+}
+
+
+.add-post__file{
+    background: $grey-text url("../images/add-photo.svg") center no-repeat;
+
+    &:hover{
+        background-color: darken($grey-text, 5%);
+    }
+
+    input {
+        display: none;
+    }
+}
+.add-post__send {
+    position: relative;
+
+    background: $color_accent2;
+    
+    &:hover{
+        background-color: darken($color_accent2, 5%);
+    }
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}

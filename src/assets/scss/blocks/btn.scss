@@ -1,0 +1,48 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+
+    padding: 1.1em 2.2em;
+
+    background: $secondary;
+    border: none;
+    border-radius: 3em;
+    cursor: pointer;
+    text-decoration: none;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    color: $white;
+
+    transition: background .2s linear;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &-red {
+        background: $color_accent1;
+        box-shadow: 0 0.7rem 1.7rem -1rem rgba($color_accent1, 0.3);
+        
+        &:hover,
+        :focus {
+            background: darken($color_accent1, 10%);
+        }
+    }
+    &-blue {
+        background: $color_accent2;
+        box-shadow: 0 0.7rem 1.7rem -1rem rgba($color_accent2, 0.3);
+        &:hover,
+        :focus {
+            background: darken($color_accent2, 10%);
+        }
+    }
+    &--rounded {
+        border-radius: .8rem;
+    }
+    &--sm {
+        padding: .8rem 1.5rem;
+    }   
+}

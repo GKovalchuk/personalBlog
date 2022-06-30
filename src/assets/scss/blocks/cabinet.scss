@@ -1,0 +1,38 @@
+.cabinet {
+    display: flex;
+
+    @include breakpoint($mobile-bp) {
+        flex-direction: column-reverse;
+    }
+}
+.cabinet__form {
+    width: 34rem;
+}
+.cabinet__avatar {
+    flex-grow: 1;
+    padding-left: 11rem;
+    margin-bottom: 1.5rem;
+
+    img {
+        display: block;       
+    }
+
+    @include breakpoint($mobile-bp) {
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+}
+.cabinet__file {
+    font-size: 1.4rem;
+    color: $color_accent2;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    input {
+        display: none;
+    }
+}

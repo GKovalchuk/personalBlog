@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Kovalchuk Gleb | Post</title>
+</head>
+<body class="">
+
+    <div class="page" id="page">
+
+        <header class="header">
+            <div class="header_left">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li><a class="subnav_link first" href="#">Создание сайтов</a></li>
+                                <li><a class="subnav_link" href="#">Интернет-маркетинг</a></li>
+                                <li><a class="subnav_link last" href="#">Продвижение видео</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger" type="button" id="sidebarToggle">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div>
+            <div class="header_right">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="signin.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="#">Выйти</a>
+                        </li>
+                    </ul>  
+                </nav>
+                <form class="search" method="get" action="search.html">
+                    <input class="search_input" type="text" placeholder="Поиск по блогу" >
+                </form>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar_header">
+                <img src="assets/images/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar_content">
+                <div class="profile">
+                    <img  class="profile_avatar" src="https://via.placeholder.com/100" alt="">
+                    <div class="profile__header">
+                        <div class="profile_name">Ковальчук Глеб</div>
+                        <div class="profile_prof">Front-end разработчик</div>
+                    </div>    
+                  
+                    <ul class="social">
+                        <li class="social_item">
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/instagram.svg" alt="kovalchuk_instagram" class="social_pic">
+                            </a>
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/pinterest.svg" alt="kovalchuk_pinterest" class="social_pic">
+                            </a>
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/vk.svg" alt="kovalchuk_vk" class="social_pic">
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <div class="profile_text">
+                        <p>Бывший инженер и учитель. 4 года занимался экологическим проектированием для крупных и не очень заказчиков. <br/><br/> С 2020 преподаю программирование, в том числе HTML, CSS, JavaScript, Python. <br/><br/> Часто работаю с Photoshop, Figma, CorelDraw, AutoCAD. <br/> В преподавании также использовал UnrealEngine 4, Unity, язык Lua.</p>
+                    </div>
+                </div>  <!-- /.profile -->
+                <nav class="nav nav--mobile"> <!-- .nav-mobile -->
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li><a class="subnav_link first" href="#">Создание сайтов</a></li>
+                                <li><a class="subnav_link" href="#">Интернет-маркетинг</a></li>
+                                <li><a class="subnav_link last" href="#">Продвижение видео</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="authorization.html">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>  <!-- /.nav-mobile -->
+            </div> <!-- /.sidebar_content -->
+            <div class="sidebar_footer">
+                <a href="works.html" class="btn btn-red">Мои работы</a>
+                <button type="button" class="btn btn-blue" data-modal="contact-modal">Написать мне</button>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <article class="post"> <!-- post -->
+                
+                    <div class="post__actions">  <!-- post__actions -->
+                        <a href="#">Вернуться назад</a>
+                        <a href="#">
+                            Поделиться<img class="post__actions--icon" src="assets/images/share.svg" alt="">
+                        </a>
+                    </div> <!-- /post__actions -->
+                
+                    <div class="post_header"> <!-- post__header -->
+                        <h1 class="post__title post__title--open">Как писать код быстро и безболезненно?</h1>  
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-21 19:20"> 21.06.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">Создание сайтов</a>
+                            </li>
+                        </ul>    
+                    </div> <!-- /post__header -->
+                
+                    <div class="post__content"> <!-- post__content -->
+                        <div class="post__text"> <!-- post__text -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim id voluptate natus exercitationem, sapiente corrupti eligendi repellat. Ratione eaque alias voluptatibus blanditiis quidem aperiam sequi aut quaerat, harum excepturi ab?</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nostrum maxime placeat temporibus totam eaque accusantium officiis excepturi sapiente autem optio id veritatis pariatur nulla similique, eius non consequuntur ipsa.</p>
+                            <p>
+                                <img src="assets/images/image.jpg" alt="">
+                            </p>
+                
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius est aut, excepturi modi dolore libero corrupti quam nemo pariatur architecto molestiae tempora? Error ab aspernatur magni aperiam porro sit?</p>
+                        </div><!-- /post__text -->
+                        <div class="related"> <!-- related -->
+                            <h3 class="post_subtitle">
+                                Интресно почитать
+                            </h3>
+                            <ul class="related__list">
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="">Как я сходил на FrontEnd Conf 2021</a>                        
+                                    </h4>
+                                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="">Как я сходил на FrontEnd Conf 2021</a>                       
+                                    </h4>
+                                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="">Как я сходил на FrontEnssssssssssssssssd Conf 2021</a>                       
+                                    </h4>
+                                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                                </li>
+                                <li class="related__list-item">
+                                    <h4 class="related__list-title">
+                                        <a href="">Как я сходил на FrontEnd Conf 2021</a>                        
+                                    </h4>
+                                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                                </li>
+                            </ul>
+                        </div> <!-- /related -->
+                
+                        <h3 class="post_subtitle">Обсуждение</h3>
+                            <form class="form" action="/"> <!-- form -->
+                                <div class="form__group">
+                                    <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Текст комментария" data-autoresize></textarea>
+                                    <span class="form__line"></span>
+                                </div>
+                                <button class="btn btn-blue btn--rounded btn--sm" type="submit">Отправить</button>                
+                            </form> <!-- /form -->
+                
+                        <ul class="comments"> <!-- comments -->
+                            <li class="comments__item">
+                                <div class="comments__header">
+                                    <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+                                    <div class="comments_author">
+                                        <div class="comments__name">Ковальчук Глеб</div>
+                                        <time class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                                    </div>
+                                </div>
+                                <div class="comments__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum eius est facilis porro eveniet alias pariatur molestias, id placeat fuga ducimus quod magnam iure esse reiciendis quibusdam harum corrupti?
+                                </div>
+                                <button class="comments__reply">Ответить</button>
+                                <ul class="comments"> <!-- comments -->
+                                    <li class="comments__item">
+                                        <div class="comments__header">
+                                            <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+                                            <div class="comments_author">
+                                                <div class="comments__name">Ковальчук Глеб</div>
+                                                <time class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                                            </div>
+                                            </div>
+                                        <div class="comments__text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum eius est facilis porro eveniet alias pariatur molestias, id placeat fuga ducimus quod magnam iure esse reiciendis quibusdam harum corrupti?
+                                        </div>
+                                        <button class="comments__reply">Ответить</button>
+                                    </li>
+                                </ul> <!-- /comments -->
+                            </li>
+                
+                        </ul> <!-- /comments -->
+                        
+                    </div>  <!-- /post__content -->
+                
+                </article> <!-- /post -->
+            </div>
+        </main>
+
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="story-modal">
+        <div class="modal__content modal__content--story">
+            <video class="modal__video" src="" poster="https://via.placeholder.com/420x580"></video>
+        </div>
+    </div>    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form action="/" class="form" method="post">
+                <div class="form__group form__group--medium__margin">
+                    <input type="text" class="form__control" placeholder="Ваше имя" value="Ковальчук Глеб">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--medium__margin">
+                    <input type="email" class="form__control" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--medium__margin">
+                    <textarea class="form__control form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer">
+                    <button class="btn btn-blue btn--rounded btn--sm" type="submit">Отправить</button>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>e-mail: <a href="mailto:gk.work@yandex.ru">gk.work@yandex.ru</a></li>
+                <li>|</li>
+                <li>тел: <a href="tel:+79858397393">+7(985)839-73-93</a></li>
+            </ul>
+        </div>
+    </div>    <div class="modal">
+        <div class="modal__content modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+            <ul class="social">
+                <li class="social_item">
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/facebook.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/twitter.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/vk.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/copy.svg" alt="" class="social_pic">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+    
+</body>
+
+</html>

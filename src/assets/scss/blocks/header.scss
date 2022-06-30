@@ -1,0 +1,40 @@
+.header {
+    width: calc(100% - #{$sidebar-width});
+    
+    background-color: $third;
+    box-shadow: 0 5px 22px rgba($black, .25);
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: $z-index-header;
+
+    @include breakpoint($tablet-bp) {
+        width: 100%;
+    }
+    @include breakpoint($mobile-bp) {
+        width: 100%;
+    }
+}
+
+.header_left {
+    width: 60%;
+    
+    @include breakpoint ($tablet-bp) {
+        width: 40%;
+    }
+}
+
+.header_right {
+    width: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+
+    @include breakpoint ($tablet-bp) {
+        width: 60%;
+    }
+}
