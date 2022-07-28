@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Kovalchuk Gleb | Reset Password</title>
+</head>
+<body class="">
+
+    <div class="page" id="page">
+
+        <header class="header">
+            <div class="header_left">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li><a class="subnav_link first" href="#">Создание сайтов</a></li>
+                                <li><a class="subnav_link" href="#">Интернет-маркетинг</a></li>
+                                <li><a class="subnav_link last" href="#">Продвижение видео</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger" type="button" id="sidebarToggle">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div>
+            <div class="header_right">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="signin.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="#">Выйти</a>
+                        </li>
+                    </ul>  
+                </nav>
+                <form class="search" method="get" action="search.html">
+                    <input class="search_input" type="text" placeholder="Поиск по блогу" >
+                </form>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar_header">
+                <img src="assets/images/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar_content">
+                <div class="profile">
+                    <img  class="profile_avatar" src="https://via.placeholder.com/100" alt="">
+                    <div class="profile__header">
+                        <div class="profile_name">Ковальчук Глеб</div>
+                        <div class="profile_prof">Front-end разработчик</div>
+                    </div>    
+                  
+                    <ul class="social">
+                        <li class="social_item">
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/instagram.svg" alt="kovalchuk_instagram" class="social_pic">
+                            </a>
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/pinterest.svg" alt="kovalchuk_pinterest" class="social_pic">
+                            </a>
+                            <a href="#" class="social_link" target="_blank">
+                                <img src="assets/images/vk.svg" alt="kovalchuk_vk" class="social_pic">
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <div class="profile_text">
+                        <p>Бывший инженер и учитель. 4 года занимался экологическим проектированием для крупных и не очень заказчиков. <br/><br/> С 2020 преподаю программирование, в том числе HTML, CSS, JavaScript, Python. <br/><br/> Часто работаю с Photoshop, Figma, CorelDraw, AutoCAD. <br/> В преподавании также использовал UnrealEngine 4, Unity, язык Lua.</p>
+                    </div>
+                </div>  <!-- /.profile -->
+                <nav class="nav nav--mobile"> <!-- .nav-mobile -->
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a class="nav_link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li><a class="subnav_link first" href="#">Создание сайтов</a></li>
+                                <li><a class="subnav_link" href="#">Интернет-маркетинг</a></li>
+                                <li><a class="subnav_link last" href="#">Продвижение видео</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="text.html">Реклама</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="authorization.html">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>  <!-- /.nav-mobile -->
+            </div> <!-- /.sidebar_content -->
+            <div class="sidebar_footer">
+                <a href="works.html" class="btn btn-red">Мои работы</a>
+                <button type="button" class="btn btn-blue" data-modal="contact-modal">Написать мне</button>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <h1 class="page__title page__title--center">Восстановить пароль</h1>
+                
+                <form action="/" class="form form--auth" method="post">
+                    <div class="form__group form__group--medium__margin">
+                        <input type="email" class="form__control" placeholder="Ваш e-mail">
+                        <span class="form__line"></span>
+                    </div>
+                
+                    <div class="form__footer form__footer--center">
+                        <div class="form__group form__group--medium__margin">
+                            <button class="btn btn-blue btn--rounded btn--sm" type="submit">Восстановить</button>
+                        </div>
+                        <ul class="form__footer-list">
+                            <li>
+                                <a href="signup.html">Регистрация</a>
+                            </li>
+                            <li>
+                                |
+                            </li>
+                            <li>
+                                <a href="signin.html">Вход</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </form>
+            </div>
+        </main>
+
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="story-modal">
+        <div class="modal__content modal__content--story">
+            <video class="modal__video" src="" poster="https://via.placeholder.com/420x580"></video>
+        </div>
+    </div>    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form action="/" class="form" method="post">
+                <div class="form__group form__group--medium__margin">
+                    <input type="text" class="form__control" placeholder="Ваше имя" value="Ковальчук Глеб">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--medium__margin">
+                    <input type="email" class="form__control" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--medium__margin">
+                    <textarea class="form__control form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer">
+                    <button class="btn btn-blue btn--rounded btn--sm" type="submit">Отправить</button>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>e-mail: <a href="mailto:gk.work@yandex.ru">gk.work@yandex.ru</a></li>
+                <li>|</li>
+                <li>тел: <a href="tel:+79858397393">+7(985)839-73-93</a></li>
+            </ul>
+        </div>
+    </div>    <div class="modal">
+        <div class="modal__content modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+            <ul class="social">
+                <li class="social_item">
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/facebook.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/twitter.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/vk.svg" alt="" class="social_pic">
+                    </a>
+                    <a href="#" class="social_link">
+                        <img src="assets/images/share/copy.svg" alt="" class="social_pic">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+    
+</body>
+
+</html>
